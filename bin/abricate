@@ -449,7 +449,7 @@ sub setOptions {
     {OPT=>"setupdb!",  VAR=>\$setupdb, DESC=>"Format all the BLAST databases"},
     {OPT=>"list!",  VAR=>\$list, DESC=>"List included databases"},
     {OPT=>"datadir=s",  VAR=>\$datadir, DEFAULT=>abs_path("$FindBin::RealBin/../db"), DESC=>"Databases folder"},
-    {OPT=>"db=s",  VAR=>\$db, DEFAULT=>"ncbi", DESC=>"Database to use"},
+    {OPT=>"db=s",  VAR=>\$db, DEFAULT=>"Brucella_VF", DESC=>"Database to use"},
     "OUTPUT",
     {OPT=>"noheader!",  VAR=>\$noheader, DESC=>"Suppress column header row"},
     {OPT=>"csv!",  VAR=>\$csv, DESC=>"Output CSV instead of TSV"},
