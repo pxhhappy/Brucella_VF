@@ -2,12 +2,11 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 ![Don't judge me](https://img.shields.io/badge/Language-Perl_5-steelblue.svg)
 
-# ABRicate
+# Brucella_VF (based on ABRicate)
 
 Mass screening of contigs for antimicrobial resistance or virulence genes.
 It comes bundled with multiple databases: 
-NCBI, CARD, ARG-ANNOT, Resfinder, MEGARES, EcOH, PlasmidFinder, Ecoli_VF and
-VFDB.
+Brucella_VF and VFDB.
 
 ## Is this the right tool for me?
 
@@ -141,15 +140,8 @@ RESISTANCE | `TETRACYCLINE;FUSIDIC_ACID` | putative antibiotic resistance phenot
 
 ABRicate comes with some pre-downloaded databases:
 
-* [NCBI AMRFinderPlus](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA313047)
-* [CARD](https://card.mcmaster.ca/)
-* [Resfinder](https://cge.cbs.dtu.dk/services/ResFinder/)
-* [ARG-ANNOT](http://en.mediterranee-infection.com/article.php?laref=283%26titre=arg-annot)
-* [MEGARES](https://megares.meglab.org/)
-* [EcOH](https://github.com/katholt/srst2/tree/master/data)
-* [PlasmidFinder](https://cge.cbs.dtu.dk/services/PlasmidFinder/)
+* [BrucellaVF](https://github.com/pxhhappy/Brucella_VF/tree/master/db/Brucella_VF)
 * [VFDB](http://www.mgc.ac.cn/VFs/)
-* [Ecoli_VF](https://github.com/phac-nml/ecoli_vf)
 
 You can check what you have installed with the `--list` command.
 This lists the available databases in TSV (or CSV with `--csv`) and three
@@ -158,18 +150,11 @@ columns:
 % abricate --list
 
 DATABASE       SEQUENCES  DBTYPE  DATE
-argannot       1749       nucl    2019-Jul-28
-card           2241       nucl    2019-Jul-28
-ecoh           597        nucl    2019-Jul-28
-ecoli_vf       2701       nucl    2019-Jul-28
-megares        6635       nucl    2020-Feb-20
-ncbi           4324       nucl    2019-Jul-28
-plasmidfinder  263        nucl    2019-Jul-28
-resfinder      2434       nucl    2019-Jul-28
+Brucella_VF    4874       nucl    2023-Oct-28
 vfdb           2597       nucl    2019-Jul-28
 ```
 
-The default database is `ncbi`.
+The default database is `Brucella_VF`.
 You can choose a different database using the `--db` option:
 ```
 % abricate --db vfdb --quiet 6159.fa
