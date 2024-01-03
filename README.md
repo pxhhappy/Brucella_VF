@@ -241,14 +241,9 @@ If you publish the results of Abricate please cite both the software _and_
 the appropriate database you used with `--db`
 
 * Seemann T, *Abricate*, **Github** `https://github.com/tseemann/abricate`
-* NCBI AMRFinderPlus - [doi: 10.1128/AAC.00483-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6811410)
-* CARD - [doi:10.1093/nar/gkw1004](https://www.ncbi.nlm.nih.gov/pubmed/27789705)
-* Resfinder - [doi:10.1093/jac/dks261](https://www.ncbi.nlm.nih.gov/pubmed/22782487)
-* ARG-ANNOT - [doi:10.1128/AAC.01310-13](https://www.ncbi.nlm.nih.gov/pubmed/24145532)
+* [BrucellaVF](https://github.com/pxhhappy/Brucella_VF/tree/master/db/Brucella_VF)
 * VFDB - [doi:10.1093/nar/gkv1239](https://www.ncbi.nlm.nih.gov/pubmed/26578559)
-* PlasmidFinder - [doi:10.1128/AAC.02412-14](https://www.ncbi.nlm.nih.gov/pubmed/24777092)
-* EcOH - [doi:10.1099/mgen.0.000064](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5343136/)
-* MEGARES 2.00 - [doi:10.1093/nar/gkz1010](https://academic.oup.com/nar/article/48/D1/D561/5624973)
+
 ## Issues
 
 Please report problems to the [Issues Page](https://github.com/tseemann/abricate/issues).
