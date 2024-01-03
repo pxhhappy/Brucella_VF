@@ -4,7 +4,7 @@
 
 # Brucella_VF (based on ABRicate)
 
-Mass screening of contigs for antimicrobial resistance or virulence genes.
+Mass screening of contigs for brcuella virulence genes.
 It comes bundled with multiple databases: 
 Brucella_VF and VFDB.
 
