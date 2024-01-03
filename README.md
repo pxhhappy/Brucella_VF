@@ -196,10 +196,10 @@ Or if you ran everything in a single report, it will work too.
 
 ```
 # force download of latest version
-% abricate-get_db --db ncbi --force
+% abricate-get_db --db Brucella_VF --force
 
 # re-use existing download and just regenerate the database
-% abricate-get_db --db ncbi
+% abricate-get_db --db Brucella_VF
 ```
 
 ## Making your own database
