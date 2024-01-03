@@ -241,7 +241,7 @@ If you publish the results of Abricate please cite both the software _and_
 the appropriate database you used with `--db`
 
 * Seemann T, *Abricate*, **Github** `https://github.com/tseemann/abricate`
-* [BrucellaVF](https://github.com/pxhhappy/Brucella_VF/tree/master/db/Brucella_VF)
+* BrucellaVF -(https://github.com/pxhhappy/Brucella_VF/tree/master/db/Brucella_VF)
 * VFDB - [doi:10.1093/nar/gkv1239](https://www.ncbi.nlm.nih.gov/pubmed/26578559)
 
 ## Issues
